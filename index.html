@@ -1,0 +1,271 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <title>Discovering the World</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
+    integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+  <link rel="stylesheet" href="styles.css">
+
+</head>
+
+<body>
+
+  <div class="container mt-5">
+    <div class="row">
+      <div class="col-lg d-flex align-items-center justify-content-center">
+        <p class="better-style">
+          <span class="large-bracket">[</span>
+          Make your Life better
+          <span class="large-bracket">]</span>
+        </p>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-lg d-flex align-items-center justify-content-center">
+        <h1>Discovering the World</h1>
+      </div>
+      <button type="button" class="btn btn-orange btn-round btn-shadow" data-toggle="modal" data-target="#addUser">
+        <i class="fas fa-user-plus"></i>
+      </button>
+    </div>
+
+    <div class="row">
+      <div class="col-lg d-flex align-items-center justify-content-center">
+        <nav class="navbar navbar-light">
+          <form class="form-inline no-gutters">
+            <button class="btn btn-light no-rounded btn-bordered" type="button">All</button>
+            <button class="btn btn-light no-rounded btn-bordered" type="button">Travel</button>
+            <button class="btn btn-light no-rounded btn-bordered" type="button">Life Style</button>
+            <button class="btn btn-light no-rounded btn-bordered" type="button">Relax</button>
+            <button class="btn btn-light no-rounded btn-bordered" type="button">Bussines</button>
+            <button class="btn btn-light no-rounded btn-bordered" type="button">Work</button>
+          </form>
+        </nav>
+      </div>
+    </div>
+    <!--Área de las tarjetas-->
+    <div class="row">
+      <div class="col-lg-6 p-0">
+        <div class="card text-bg-dark">
+          <img class="card-img img-style"
+            src="https://mexicorutamagica.mx/wp-content/uploads/2020/12/nevado_de_toluca_001-Ana_Paula_Tello-flickr_com.jpg">
+          <div class="card-img-overlay d-flex flex-column justify-content-end text-white">
+            <h5 class="card-title">Nevado de Toluca</h5>
+            <p class="card-text">El Nevado de Toluca, aunque aún referido como Xinantécatl, es un volcán mexicano
+              ubicado en Estado de México,
+              en el Valle de Toluca.</p>
+            <p class="card-text"><small>#Mountains #Winter</small></p>
+          </div>
+          <button type="button" class="btn btn-orange btn-round position-absolute" style="top: 10px; right: 10px"
+            data-toggle="modal" data-target="#updatePicture">
+            <i class="fas fa-pencil-alt"></i>
+          </button>
+          <button type="button" class="btn btn-orange btn-round position-absolute" style="top: 10px; right: 55px"
+            data-toggle="modal" data-target="#deletePicture">
+            <i class="fas fa-times"></i>
+          </button>
+        </div>
+      </div>
+      <div class="col-lg-6 p-0">
+        <div class="card text-bg-dark">
+          <img class="card-img img-style"
+            src="https://www.oaxaca.gob.mx/comunicacion/wp-content/uploads/sites/28/2024/02/PLAYA-DOS-1024x576.jpeg">
+          <div class="card-img-overlay d-flex flex-column justify-content-end text-white">
+            <h5 class="card-title">Bahía la entrega</h5>
+            <p class="card-text">Llamada así porque el 20 de Enero de 1831 se consumó la traición del genovés Francisco
+              Picaluga, al entregar
+              al General Vicente Guerrero..</p>
+            <p class="card-text"><small>#Playa</small></p>
+          </div>
+          <button type="button" class="btn btn-orange btn-round position-absolute" style="top: 10px; right: 10px"
+            data-toggle="modal" data-target="#updatePicture">
+            <i class="fas fa-pencil-alt"></i>
+          </button>
+          <button type="button" class="btn btn-orange btn-round position-absolute" style="top: 10px; right: 55px"
+            data-toggle="modal" data-target="#deletePicture">
+            <i class="fas fa-times"></i>
+          </button>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-lg-6 p-0">
+        <div class="card text-bg-dark">
+          <img class="card-img img-style"
+            src="https://media-cdn.tripadvisor.com/media/attractions-splice-spp-674x446/0a/33/cf/24.jpg">
+          <div class="card-img-overlay d-flex flex-column justify-content-end text-white">
+            <h5 class="card-title">Palenque</h5>
+            <p class="card-text">Palenque es una ciudad del sur de México, en el estado de Chiapas. Es conocida por ser
+              una vía
+              de acceso a las antiguas ruinas mayas del mismo nombre en el oeste.</p>
+            <p class="card-text"><small>#Mayas #Ruinas</small></p>
+          </div>
+          <button type="button" class="btn btn-orange btn-round position-absolute" style="top: 10px; right: 10px"
+            data-toggle="modal" data-target="#updatePicture">
+            <i class="fas fa-pencil-alt"></i>
+          </button>
+          <button type="button" class="btn btn-orange btn-round position-absolute" style="top: 10px; right: 55px"
+            data-toggle="modal" data-target="#deletePicture">
+            <i class="fas fa-times"></i>
+          </button>
+        </div>
+      </div>
+      <div class="col-lg-6 p-0">
+        <div class="card text-bg-dark">
+          <img class="card-img img-style"
+            src="https://www.visit-mexico.mx/wp-content/uploads/2020/12/CDMX-Cover-01.jpg">
+          <div class="card-img-overlay d-flex flex-column justify-content-end text-white">
+            <h5 class="card-title">Ciudad de México</h5>
+            <p class="card-text">Ciudad de México es la densamente poblada capital de México que se encuentra a gran
+              altura.
+              Es famosa por su Templo Mayor (un templo azteca del siglo XIII), la Catedral Metropolitana de México, de
+              estilo barroco.</p>
+            <p class="card-text"><small>#Negocios</small></p>
+          </div>
+          <button type="button" class="btn btn-orange btn-round position-absolute" style="top: 10px; right: 10px"
+            data-toggle="modal" data-target="#updatePicture">
+            <i class="fas fa-pencil-alt"></i>
+          </button>
+          <button type="button" class="btn btn-orange btn-round position-absolute" style="top: 10px; right: 55px"
+            data-toggle="modal" data-target="#deletePicture">
+            <i class="fas fa-times"></i>
+          </button>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-lg d-flex align-items-center justify-content-center">
+        <div class="card text-bg-dark">
+          <img class="card-img img-style"
+            src="https://media.admagazine.com/photos/65cd57a2e6b8c0862617fd65/master/w_1600%2Cc_limit/desierto-de-sonora.jpg">
+          <div class="card-img-overlay d-flex flex-column justify-content-end text-white">
+            <h5 class="card-title">Desierto de Sonora</h5>
+            <p class="card-text">El desierto de Sonora, a veces también llamado desierto de Gila por el río Gila, es un
+              desierto localizado
+              en América del Norte cuya extensión es compartida entre dos países.</p>
+            <p class="card-text"><small>#Desierto</small></p>
+          </div>
+          <button type="button" class="btn btn-orange btn-round position-absolute" style="top: 10px; right: 10px"
+            data-toggle="modal" data-target="#updatePicture">
+            <i class="fas fa-pencil-alt"></i>
+          </button>
+          <button type="button" class="btn btn-orange btn-round position-absolute" style="top: 10px; right: 55px"
+            data-toggle="modal" data-target="#deletePicture">
+            <i class="fas fa-times"></i>
+          </button>
+        </div>
+      </div>
+    </div>
+
+
+  </div>
+  <br>
+
+  <!--Modal para agregar un usuario-->
+  <div class="modal fade" id="addUser" tabindex="-1" role="form" aria-labelledby="addUserLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-tittle" id="addUserLabel">Agregar usuario</h5>
+        </div>
+        <div class="modal-body">
+          <form>
+            <div class="form-group">
+              <label>Nombre completo</label>
+              <input class="form-control" placeholder="Nombre completo">
+            </div>
+            <div class="form-group">
+              <label>Email</label>
+              <input type="email" class="form-control" placeholder="Email">
+            </div>
+            <div class="form-group">
+              <label>Usuario</label>
+              <input class="form-control" placeholder="Usuario">
+            </div>
+            <div class="form-group">
+              <label>Password</label>
+              <input type="password" class="form-control" placeholder="Password">
+            </div>
+          </form>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Cancelar</button>
+          <button type="button" class="btn btn-primary" data-dismiss="modal">Guardar Cambios</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!--Modal eliminar imagen-->
+  <div class="modal fade" id="deletePicture" tabindex="-1" role="dialog" aria-labelledby="deletePictureLabel"
+    aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-tittle" id="deletePictureLabel">Eliminar imagen</h5>
+        </div>
+        <div class="modal-body">
+          ¿Deses eliminar la imagen?
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-primary" data-dismiss="modal">Cancelar</button>
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Eliminar</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!--Modal modificar imagen-->
+  <div class="modal fade" id="updatePicture" tabindex="-1" role="dialog" aria-labelledby="updatePictureLabel"
+    aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-tittle" id="updatePictureLabel">Modificar imagen</h5>
+        </div>
+        <div class="modal-body">
+          <form>
+            <div class="form-group">
+              <label>Título de la imagen</label>
+              <input class="form-control" placeholder="Título">
+            </div>
+            <div class="form-group">
+              <label>Descripción</label>
+              <input class="form-control" placeholder="Descripción">
+            </div>
+            <div class="form-group">
+              <label>Hashtag</label>
+              <input class="form-control" placeholder="#Hashtag">
+            </div>
+            <div class="form-group">
+              <label>Selecciona la imagen</label>
+              <input type="file" class="form-control-file">
+            </div>
+          </form>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Cancelar</button>
+          <button type="button" class="btn btn-primary" data-dismiss="modal">Guardar Cambios</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+    integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js"
+    integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"
+    integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+    crossorigin="anonymous"></script>
+
+</body>
+
+</html>
