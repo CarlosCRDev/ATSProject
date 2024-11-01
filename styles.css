@@ -1,0 +1,63 @@
+.better-style {
+    color: #fd7709;
+}
+
+.no-rounded {
+    border-radius: 0 !important;
+}
+
+.no-gutters {
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+.form-inline.no-gutters .btn {
+    margin-right: 0px; /* Ajusta este valor si es necesario */
+}
+
+.no-border {
+    border: none !important; /* Quitar el borde */
+}
+
+.no-radius {
+    border-radius: 0 !important; /* Quitar las esquinas redondeadas */
+}
+
+.img-style{
+    height: 320px;
+}
+
+.large-bracket {
+    font-size: 2em; /* Ajusta el tamaño de los corchetes */
+}
+
+.btn-bordered {
+    border: 0.5px solid rgb(107, 105, 105) !important; /* Agregar un marco negro */
+}
+
+.btn-orange{
+    background-color: orange;
+    color: white;
+    border: none;
+}
+
+.btn-round{
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.btn-round i{
+    font-size: 1em;
+}
+
+.btn-shadow{
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
+
+.text-white {
+    color: white !important; /* Color del texto negro */
+}
